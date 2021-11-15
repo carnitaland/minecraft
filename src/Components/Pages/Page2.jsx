@@ -37,7 +37,7 @@ const Page2 = () => {
             background:"rgba(0, 0, 0, 0.352)",
         },
         borders:{
-            border:"1px solid white",
+            // border:"1px solid white",
             background:"rgba(0, 0, 0, 0.452)",
             color:"white",
             width:"70%",
@@ -45,12 +45,12 @@ const Page2 = () => {
             marginRight: "auto",
             padding:"20px",
             borderRadius:"10px",
-            boxShadow:"0 0 10px 0 white",
+            boxShadow:"0 0 30px 0 white",
             fontFamily:"verdana",
             marginTop:"230px"
         },
         contenido:{
-            border:"1px solid white",
+            // border:"1px solid white",
             background:"rgba(0, 0, 0, 0.452)",
             color:"white",
             width:"70%",
@@ -58,12 +58,12 @@ const Page2 = () => {
             marginRight: "auto",
             padding:"20px",
             borderRadius:"10px",
-            boxShadow:"0 0 10px 0 white",
+            boxShadow:"0 0 60px 0 white",
             fontFamily:"verdana",
            
         },
         btn:{
-            background:"blue"
+            background:"green"
         }
     }
     

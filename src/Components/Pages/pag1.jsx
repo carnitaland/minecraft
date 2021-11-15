@@ -2,6 +2,7 @@ import React from 'react'
 import { Fragment } from 'react/cjs/react.development'
 import { useNavigate } from 'react-router-dom';
 import '../../App.css';
+import Registrate from '../Registrate';
 
 const Page1 = () => {
 
@@ -27,6 +28,10 @@ const Page1 = () => {
         navigate("/eventos")
     }
 
+    const Registrate = () => {
+        navigate("/registrate")
+    }
+
     const style = {
         borders:{
             border:"1px solid white",
@@ -44,23 +49,53 @@ const Page1 = () => {
         title:{
             fontSize:"50px",
             color:"orange",
-           
+        },
+        cuadros:{
+            display: "inline-block",
+            float: "left",
+            width:"35%",
+            color:"white",
+            border:"1px solid white",
+            padding:"10px",
+            margin:"20px",
+            background:"rgba(0, 0, 0, 0.452)",
+            borderRadius:"10px"
+        },
+        cuadros2:{
+            display: "inline-block",
+            float: "right",
+            width:"35%",
+            color:"white",
+            border:"1px solid white",
+            padding:"10px",
+            margin:"20px",
+            background:"rgba(0, 0, 0, 0.452)",
+            borderRadius:"10px"
         }
     }
 
     return(
         <Fragment>
 
+            <div className="logo"></div>
                 <div>
-                    <img src="" alt="" />
-                    
                     <button onClick={Bases}>REGLAMENTOS</button>
                     <button onClick={Mision}>MISIONES</button>
                     <button onClick={Progress}>PROGRESO</button>
                     <button onClick={Premio}>PREMIOS CARNITA-GAMES</button>
                     <button onClick={Events}>EVENTOS</button>
+                    <button onClick={Registrate}>REGISTRATE</button>
                 </div>
-            <div className="logo"></div>
+                <div style={style.cuadros}>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, aut officiis. Veniam dolor quidem ex voluptatem adipisci, odit enim, temporibus quam tempore voluptatibus facere ut rem aperiam quaerat porro alias?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque harum fugit illo omnis quam reprehenderit voluptate assumenda eaque amet atque dolorum repellendus ullam blanditiis animi quia, ex dolorem esse ab.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione placeat aliquam laboriosam similique iste, voluptatibus veritatis minima odio possimus nulla inventore eveniet soluta aspernatur suscipit maiores autem, molestiae sit animi.</p>
+                </div>
+                <div style={style.cuadros2}>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, aut officiis. Veniam dolor quidem ex voluptatem adipisci, odit enim, temporibus quam tempore voluptatibus facere ut rem aperiam quaerat porro alias?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque harum fugit illo omnis quam reprehenderit voluptate assumenda eaque amet atque dolorum repellendus ullam blanditiis animi quia, ex dolorem esse ab.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione placeat aliquam laboriosam similique iste, voluptatibus veritatis minima odio possimus nulla inventore eveniet soluta aspernatur suscipit maiores autem, molestiae sit animi.</p>
+                </div>
 
 
 

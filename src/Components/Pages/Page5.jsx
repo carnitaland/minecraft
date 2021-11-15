@@ -53,7 +53,7 @@ const Page5 = () => {
             background:"rgba(0, 0, 0, 0.352)",
         },
         btn:{
-            background:"blue"
+            ackground:"green"
         }
     }
 

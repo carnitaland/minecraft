@@ -12,7 +12,8 @@ import { Fragment } from 'react/cjs/react.development';
 import Misiones from './Misiones';
 import Progreso from './Progreso';
 import Premios from './Premios';
-import Eventos from './Eventos'
+import Eventos from './Eventos';
+import Registrate from './Registrate';
 
 const Rutas = () => {
     return(
@@ -25,6 +26,7 @@ const Rutas = () => {
                     <Route path="/progreso" element={<Progreso />} />
                     <Route path="/premios" element={<Premios />} />
                     <Route path="/eventos" element={<Eventos />} />
+                    <Route path="/registrate" element={<Registrate />} />
                 </Routes>
                 
             </Router>

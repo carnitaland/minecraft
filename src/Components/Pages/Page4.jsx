@@ -55,7 +55,7 @@ const Page4 = () => {
         },
         
         btn:{
-            background:"blue"
+            ackground:"green"
         }
     }
 

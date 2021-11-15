@@ -53,28 +53,29 @@ const Page6 = () => {
             background:"rgba(0, 0, 0, 0.352)",
         },
         btn:{
-            background:"blue"
+            ackground:"green"
         }
     }
     
     return(
         <Fragment>
+            <div className="logoProgreso">
+                <div>
+                    <img src="" alt="" />
+                    <button style={style.btn} onClick={Home}>INICIO</button>
+                    <button onClick={Bases}>REGLAMENTOS</button>
+                    <button onClick={Mision}>MISIONES</button>
+                    <button onClick={Premio}>PREMIOS CARNITA-GAMES</button>
+                    <button onClick={Events}>EVENTOS</button>
+                </div>
 
-            <div>
-                <img src="" alt="" />
-                <button style={style.btn} onClick={Home}>INICIO</button>
-                <button onClick={Bases}>REGLAMENTOS</button>
-                <button onClick={Mision}>MISIONES</button>
-                <button onClick={Premio}>PREMIOS CARNITA-GAMES</button>
-                <button onClick={Events}>EVENTOS</button>
-            </div>
+                <div>
+                    <h1 style={style.title}>PROGRESO</h1>
+                </div>
 
-            <div>
-                <h1 style={style.title}>PROGRESO</h1>
-            </div>
-
-            <div style={style.borders}>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut accusantium illo perferendis consequatur repudiandae deleniti, illum consequuntur reiciendis cupiditate placeat itaque ratione, recusandae delectus cum quisquam ipsam quam, vel porro?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta ullam voluptatem consectetur maiores atque minima non officia earum cum! Voluptatum voluptas obcaecati dicta expedita sequi rerum minima, eligendi impedit tempora.</p><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam illo nemo non molestias esse porro voluptate. Quibusdam facilis, dolores quod placeat repellat eveniet, quasi fuga expedita quo facere ducimus doloremque.</p>
+                <div style={style.borders}>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut accusantium illo perferendis consequatur repudiandae deleniti, illum consequuntur reiciendis cupiditate placeat itaque ratione, recusandae delectus cum quisquam ipsam quam, vel porro?</p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta ullam voluptatem consectetur maiores atque minima non officia earum cum! Voluptatum voluptas obcaecati dicta expedita sequi rerum minima, eligendi impedit tempora.</p><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam illo nemo non molestias esse porro voluptate. Quibusdam facilis, dolores quod placeat repellat eveniet, quasi fuga expedita quo facere ducimus doloremque.</p>
+                </div>
             </div>
 
         </Fragment>
