@@ -9,6 +9,22 @@ const Page7 = () => {
     const Home = () => {
         navigate("/");
     }
+    const Bases = () => {
+        navigate("/basesycondiciones")
+    }
+
+    const Mision = () => {
+        navigate("/misiones")
+    }
+
+    const Premio =()=>{
+        navigate("/premios")
+    }
+
+    const Events =()=>{
+        navigate("/eventos")
+    }
+
     const style = {
         borders:{
             border:"1px solid white",
@@ -38,41 +54,46 @@ const Page7 = () => {
         btn:{
             background:"green"
         },
-        formulario:{
-            padding:"10px",
-            borderRadius:"5px",
-            // backgroundColor:"rgba(0, 0, 0, 0.281)",
-            boxShadow:"0 0 20px 0 white"
-        }
+        // formulario:{
+        //     padding:"10px",
+        //     borderRadius:"5px",
+        //     // backgroundColor:"rgba(0, 0, 0, 0.281)",
+        //     // boxShadow:"0 0 20px 0 white"
+        // }
     }
     return(
         <Fragment>
+            <div className="logoRegistrarse">
+                <div className="logo"></div>
+                <div className="title-Registro"></div>
+               
+                <div>
+                    <form action="" method="get">
+                        <div className="formulario">FORMULARIO</div>
+                        <div>
+                            <div>
+                                <input type="text" placeholder="nombre" />
+                            </div>
+                            <div>
+                                <input type="text" placeholder="Apellido" />
+                            </div>
+                            <div>
+                                <input type="text" placeholder="Nick" />
+                            </div>
+                            <div>
+                                <button>ENVIAR</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
 
-            <div>
-                <h1 style={style.title}>REGISTRATE</h1>
-            </div>
-
-            <div>
-                <form action="" method="get">
-                    <div className="formulario">FORMULARIO</div>
-                    <div style={style.formulario}>
-                        <div>
-                            <input type="text" placeholder="nombre" />
-                        </div>
-                        <div>
-                            <input type="text" placeholder="Apellido" />
-                        </div>
-                        <div>
-                            <input type="text" placeholder="Nick" />
-                        </div>
-                        <div>
-                            <button>ENVIAR</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <div>
-            <button style={style.btn} onClick={Home}>INICIO</button>
+                <div>
+                    <button style={style.btn} onClick={Home}>INICIO</button>
+                    <button onClick={Bases}>REGLAMENTOS</button>
+                    <button onClick={Mision}>MISIONES</button>
+                    <button onClick={Premio}>PREMIOS CARNITA-GAMES</button>
+                    <button onClick={Events}>EVENTOS</button>
+                </div>
             </div>
         </Fragment>
     )

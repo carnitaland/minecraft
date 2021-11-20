@@ -48,7 +48,7 @@ const Page3 = () => {
             background:"rgba(0, 0, 0, 0.352)",
         },
         btn:{
-            ackground:"green"
+            background:"green"
         }
     }
     return(
@@ -56,17 +56,28 @@ const Page3 = () => {
         <Fragment>
 
             <div className="logoMisiones">
+                <div className="logo"></div>
+                
                 <button style={style.btn} onClick={Home}>INICIO</button>
                 <button onClick={Bases}>REGLAMENTOS</button>
                 <button onClick={Progress}>PROGRESO</button>
                 <button onClick={Premio}>PREMIOS CARNITA-GAMES</button>
                 <button onClick={Events}>EVENTOS</button>
 
-                <h1 style={style.title}>MISIONES</h1>
+                <div className="title-Misiones"></div>
 
                 <p style={style.borders}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sequi, dolorem saepe architecto fugit voluptatem magnam expedita cumque possimus laboriosam placeat dignissimos eius numquam molestiae maxime. Odit rerum labore fuga?</p>
                 <p style={style.borders}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sequi, dolorem saepe architecto fugit voluptatem magnam expedita cumque possimus laboriosam placeat dignissimos eius numquam molestiae maxime. Odit rerum labore fuga?</p>
                 <p style={style.borders}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sequi, dolorem saepe architecto fugit voluptatem magnam expedita cumque possimus laboriosam placeat dignissimos eius numquam molestiae maxime. Odit rerum labore fuga?</p>
+                <p style={style.borders}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sequi, dolorem saepe architecto fugit voluptatem magnam expedita cumque possimus laboriosam placeat dignissimos eius numquam molestiae maxime. Odit rerum labore fuga?</p>
+                <p style={style.borders}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sequi, dolorem saepe architecto fugit voluptatem magnam expedita cumque possimus laboriosam placeat dignissimos eius numquam molestiae maxime. Odit rerum labore fuga?</p>
+                <p style={style.borders}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sequi, dolorem saepe architecto fugit voluptatem magnam expedita cumque possimus laboriosam placeat dignissimos eius numquam molestiae maxime. Odit rerum labore fuga?</p>
+
+                <button style={style.btn} onClick={Home}>INICIO</button>
+                <button onClick={Bases}>REGLAMENTOS</button>
+                <button onClick={Progress}>PROGRESO</button>
+                <button onClick={Premio}>PREMIOS CARNITA-GAMES</button>
+                <button onClick={Events}>EVENTOS</button>
             </div>
 
         </Fragment>
