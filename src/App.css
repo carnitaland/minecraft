@@ -98,6 +98,7 @@ form{
 
 .logo {
   background-image: url(Components/Img/CARNITA\ LAVA\ FULL.PNG);
+  background-size: 375px;
   background-position: center;
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
@@ -198,7 +199,7 @@ form{
 .title-Games, .title-Carnita-Land{
   padding: 90px;
   background-position: center;
-  background-size: 500px;
+  background-size: 380px;
   background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.404);
 }

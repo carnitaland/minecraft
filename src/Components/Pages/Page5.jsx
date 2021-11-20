@@ -60,7 +60,7 @@ const Page5 = () => {
             background:"green"
         },
         titleCarnita:{
-            backgroundSize:"500px"
+            backgroundSize:"390px"
         },
         btnRegistrate:{
             background:"red"
