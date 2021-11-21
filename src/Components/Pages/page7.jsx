@@ -70,20 +70,20 @@ const Page7 = () => {
                 <div>
                     <form action="" method="get">
                         <div className="formulario">FORMULARIO</div>
-                        <div>
                             <div>
-                                <input type="text" placeholder="nombre" />
+                                <div>
+                                    <input type="text" placeholder="nombre" />
+                                </div>
+                                <div>
+                                    <input type="text" placeholder="Apellido" />
+                                </div>
+                                <div>
+                                    <input type="text" placeholder="Nick" />
+                                </div>
+                                <div>
+                                    <button>ENVIAR</button>
+                                </div>
                             </div>
-                            <div>
-                                <input type="text" placeholder="Apellido" />
-                            </div>
-                            <div>
-                                <input type="text" placeholder="Nick" />
-                            </div>
-                            <div>
-                                <button>ENVIAR</button>
-                            </div>
-                        </div>
                     </form>
                 </div>
 

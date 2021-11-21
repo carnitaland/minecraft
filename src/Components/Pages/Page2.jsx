@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import { useNavigate } from "react-router";
-import '../../App.css'
+import '../../App.css';
+import { animateScroll as scroll} from "react-scroll";
 
 const Page2 = () => {
 
