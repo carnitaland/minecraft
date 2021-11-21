@@ -124,7 +124,11 @@ form{
 }
 
 .title-title-reglamento {
-  background-image: url(Components/Img/vamos-primero-a-lo-lindo.png);
+  background-image: url(Components/Img/vamos-primero.png);
+}
+
+.title-title-reglamento-bis {
+  background-image: url(Components/Img/a-lo-lindo.png);
 }
 
 .title-title-reglamento2 {
@@ -160,17 +164,14 @@ form{
 }
 
 
-.title-Reglamentos, .title-Misiones, .title-Progreso, .title-Eventos, .title-Registro, .title-title-reglamento {
+.title-Reglamentos, .title-Misiones, .title-Progreso, .title-Eventos, .title-Registro, .title-title-reglamento, .title-title-reglamento-bis {
   padding: 50px;
   width: 70%;
   margin: auto;
+  float: inline-block;
   background-position: center;
-  background-size: 378px;
-  background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.404);
-  border: 1px solid #cccc;
-  box-shadow: 0 0 10px 0 white;
-  border-radius: 20px;
+  background-size: 240px;
+  background-repeat: no-repeat;  
   flex-wrap: wrap;
   justify-content: space-between;
   float: flex;
@@ -181,7 +182,7 @@ form{
 .title-title-reglamento3, .title-title-reglamento2 {
   padding: 29px;
   background-position: center;
-  background-size: 327px;
+  background-size: 270px;
   width: 70%;
   margin: auto;
   background-repeat: no-repeat;
