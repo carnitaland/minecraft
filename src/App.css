@@ -2,13 +2,13 @@
   text-align: center;
 }
 
-body {
+/* body {
   background-image: url(Components/Img/principal.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 button {
   width: 260px;
@@ -216,6 +216,10 @@ form{
   border-top-right-radius: 20px;
 }
 
+.logoInicio {
+  background-image: url(Components/Img/principal.jpg);
+}
+
 .logoMisiones{
   background-image: url(Components/Img/fondo-misiones.jpg);
 }
@@ -236,7 +240,7 @@ form{
   background-image: url(Components/Img/Registrarse.jpg);
 }
 
-.logoEventos, .logoMisiones, .logoPremio, .logoProgreso, .logoRegistrarse {
+.logoEventos, .logoMisiones, .logoPremio, .logoProgreso, .logoRegistrarse, .logoInicio {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
