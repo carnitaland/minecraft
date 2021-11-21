@@ -202,19 +202,6 @@ form{
   background-position: center;
   background-size: 380px;
   background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.404);
-}
-
-.title-Games {
-  border-bottom: 1px solid #cccc;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
-
-.title-Carnita-Land {
-  border-top: 1px solid #cccc;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
 }
 
 .logoInicio {
