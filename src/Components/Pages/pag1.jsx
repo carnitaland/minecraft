@@ -74,23 +74,23 @@ const Page1 = () => {
                         <button onClick={Premio}>PREMIOS CARNITA-GAMES</button>
                         <button onClick={Events}>EVENTOS</button>
                     </div>
-                    <div style={style.cuadros}>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, aut officiis. Veniam dolor quidem ex voluptatem adipisci, odit enim, temporibus quam tempore voluptatibus facere ut rem aperiam quaerat porro alias?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque harum fugit illo omnis quam reprehenderit voluptate assumenda eaque amet atque dolorum repellendus ullam blanditiis animi quia, ex dolorem esse ab.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione placeat aliquam laboriosam similique iste, voluptatibus veritatis minima odio possimus nulla inventore eveniet soluta aspernatur suscipit maiores autem, molestiae sit animi.</p>
-                    </div>
-                    <div style={style.cuadros}>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, aut officiis. Veniam dolor quidem ex voluptatem adipisci, odit enim, temporibus quam tempore voluptatibus facere ut rem aperiam quaerat porro alias?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque harum fugit illo omnis quam reprehenderit voluptate assumenda eaque amet atque dolorum repellendus ullam blanditiis animi quia, ex dolorem esse ab.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione placeat aliquam laboriosam similique iste, voluptatibus veritatis minima odio possimus nulla inventore eveniet soluta aspernatur suscipit maiores autem, molestiae sit animi.</p>
-                    </div>
-                    <div style={style.cuadros}>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, aut officiis. Veniam dolor quidem ex voluptatem adipisci, odit enim, temporibus quam tempore voluptatibus facere ut rem aperiam quaerat porro alias?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque harum fugit illo omnis quam reprehenderit voluptate assumenda eaque amet atque dolorum repellendus ullam blanditiis animi quia, ex dolorem esse ab.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione placeat aliquam laboriosam similique iste, voluptatibus veritatis minima odio possimus nulla inventore eveniet soluta aspernatur suscipit maiores autem, molestiae sit animi.</p>
-                    </div>
                     <div>
                         <button onClick={Registrate}>REGISTRATE</button>
+                    </div>
+                    <div style={style.cuadros}>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, aut officiis. Veniam dolor quidem ex voluptatem adipisci, odit enim, temporibus quam tempore voluptatibus facere ut rem aperiam quaerat porro alias?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque harum fugit illo omnis quam reprehenderit voluptate assumenda eaque amet atque dolorum repellendus ullam blanditiis animi quia, ex dolorem esse ab.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione placeat aliquam laboriosam similique iste, voluptatibus veritatis minima odio possimus nulla inventore eveniet soluta aspernatur suscipit maiores autem, molestiae sit animi.</p>
+                    </div>
+                    <div style={style.cuadros}>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, aut officiis. Veniam dolor quidem ex voluptatem adipisci, odit enim, temporibus quam tempore voluptatibus facere ut rem aperiam quaerat porro alias?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque harum fugit illo omnis quam reprehenderit voluptate assumenda eaque amet atque dolorum repellendus ullam blanditiis animi quia, ex dolorem esse ab.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione placeat aliquam laboriosam similique iste, voluptatibus veritatis minima odio possimus nulla inventore eveniet soluta aspernatur suscipit maiores autem, molestiae sit animi.</p>
+                    </div>
+                    <div style={style.cuadros}>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, aut officiis. Veniam dolor quidem ex voluptatem adipisci, odit enim, temporibus quam tempore voluptatibus facere ut rem aperiam quaerat porro alias?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque harum fugit illo omnis quam reprehenderit voluptate assumenda eaque amet atque dolorum repellendus ullam blanditiis animi quia, ex dolorem esse ab.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione placeat aliquam laboriosam similique iste, voluptatibus veritatis minima odio possimus nulla inventore eveniet soluta aspernatur suscipit maiores autem, molestiae sit animi.</p>
                     </div>
             </div>
 
