@@ -1,6 +1,7 @@
 import React from "react";
 import { Fragment } from "react";
 import { useNavigate } from "react-router";
+import Formulario from '../Formulario'
 
 const Page5 = () => {
 
@@ -109,7 +110,8 @@ const Page5 = () => {
                 </div>
                 
                 <div className="jugadores">
-                    <div className="datos" >
+                    <Formulario />
+                    {/* <div className="datos" >
                         <label htmlFor="" >Nombre</label>
                     </div>
                     <div className="datos">
@@ -120,7 +122,7 @@ const Page5 = () => {
                     </div>
                     <div>
 
-                    </div>
+                    </div> */}
                 </div>
                 <div>
                     <button style={style.btn} onClick={Home}>INICIO</button>
