@@ -93,7 +93,6 @@ const Page2 = () => {
                 
                     <p style={style.borders}>
                     <div className="title-title-reglamento"></div>
-                    <div className="title-title-reglamento-bis"></div>
                         <div style={style.contenido}>
                             <p>⦁	Con el tiempo se van a habilitar los mercados donde se van a poder comprar diferentes ítems.</p>
                             <p>⦁	Cada tienda va a tener un costo acorde a lo que se venda.</p>

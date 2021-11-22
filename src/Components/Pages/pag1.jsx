@@ -2,7 +2,6 @@ import React from 'react'
 import { Fragment } from 'react/cjs/react.development'
 import { useNavigate } from 'react-router-dom';
 import '../../App.css';
-import Registrate from '../Registrate';
 
 const Page1 = () => {
 

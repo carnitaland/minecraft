@@ -119,16 +119,12 @@ form{
   background-image: url(Components/Img/vamos-primero.png);
 }
 
-.title-title-reglamento-bis {
-  background-image: url(Components/Img/a-lo-lindo.png);
-}
-
 .title-title-reglamento2 {
-  background-image: url(Components/Img/Y-AHORA-VAYAMOS-POR-LA-P.png);
+  background-image: url(Components/Img/ahora-vayamos.png);
 }
 
 .title-title-reglamento3 {
-  background-image: url(Components/Img/TODAS-LA-NORMAS-QUEDAN-S.png);
+  background-image: url(Components/Img/todas-las-normas.png);
 }
 
 .title-Misiones {
@@ -156,7 +152,7 @@ form{
 }
 
 
-.title-Reglamentos, .title-Misiones, .title-Progreso, .title-Eventos, .title-Registro, .title-title-reglamento, .title-title-reglamento-bis {
+.title-Reglamentos, .title-Misiones, .title-Progreso, .title-Eventos, .title-Registro, .title-title-reglamento {
   padding: 50px;
   width: 70%;
   margin: auto;
@@ -172,16 +168,13 @@ form{
 }
 
 .title-title-reglamento3, .title-title-reglamento2 {
-  padding: 29px;
+  padding: 70px;
   background-position: center;
   background-size: 270px;
   width: 70%;
   margin: auto;
   background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.404);
-  border: 1px solid #cccc;
-  box-shadow: 0 0 10px 0 white;
-  border-radius: 20px;
+
   flex-wrap: wrap;
   justify-content: space-between;
   float: flex;
