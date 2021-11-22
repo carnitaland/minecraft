@@ -65,8 +65,8 @@ const Page6 = () => {
                     <button style={style.btn} onClick={Home}>INICIO</button>
                     <button onClick={Bases}>REGLAMENTOS</button>
                     <button onClick={Mision}>MISIONES</button>
-                    <button onClick={Premio}>PREMIOS CARNITA-GAMES</button>
                     <button onClick={Events}>EVENTOS</button>
+                    <button onClick={Premio}>PREMIOS CARNITA-GAMES</button>
                 </div>
 
                 <div className="title-Progreso"></div>
@@ -82,8 +82,8 @@ const Page6 = () => {
                     <button style={style.btn} onClick={Home}>INICIO</button>
                     <button onClick={Bases}>REGLAMENTOS</button>
                     <button onClick={Mision}>MISIONES</button>
-                    <button onClick={Premio}>PREMIOS CARNITA-GAMES</button>
                     <button onClick={Events}>EVENTOS</button>
+                    <button onClick={Premio}>PREMIOS CARNITA-GAMES</button>
                 </div>
             </div>
 

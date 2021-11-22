@@ -71,8 +71,8 @@ const Page1 = () => {
                         <button onClick={Bases}>REGLAMENTOS</button>
                         <button onClick={Mision}>MISIONES</button>
                         <button onClick={Progress}>PROGRESO</button>
-                        <button onClick={Premio}>PREMIOS CARNITA-GAMES</button>
                         <button onClick={Events}>EVENTOS</button>
+                        <button onClick={Premio}>PREMIOS CARNITA-GAMES</button>
                     </div>
                     <div>
                         <button onClick={Registrate}>REGISTRATE</button>

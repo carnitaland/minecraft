@@ -3,7 +3,7 @@
 }
 
 button {
-  width: 260px;
+  width: 200px;
   background-color: rgba(6, 215, 252, 0.776);
   color:rgb(255, 255, 255);
   /* display: inline-block; */
@@ -68,7 +68,7 @@ form{
   background-repeat: no-repeat;
   background-clip: border-box;
   background-position: left;
-  width: 70%;
+  width: 61%;
   padding: 50px;
   margin-right: auto;
   margin-left: auto;
