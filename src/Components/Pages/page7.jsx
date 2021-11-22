@@ -69,7 +69,7 @@ const Page7 = () => {
                
                 <div>
                     <form action="" method="get">
-                        <div className="formulario">FORMULARIO</div>
+                        <div className="formulario"></div>
                             <div>
                                 <div>
                                     <input type="text" placeholder="nombre" />
