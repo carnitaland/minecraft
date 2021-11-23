@@ -41,10 +41,10 @@ const Page2 = () => {
             justifyContent: "space-between",
         },
         borders:{
-            // border:"1px solid white",
+            marginBottom:"30px",
             background:"rgba(0, 0, 0, 0.452)",
             color:"white",
-            width:"74%",
+            width:"86%",
             margin:"auto",
             padding:"20px",
             borderRadius:"10px",
@@ -55,16 +55,17 @@ const Page2 = () => {
             justifyContent: "space-between",
         },
         contenido:{
-            // border:"1px solid white",
-            background:"rgba(0, 0, 0, 0.452)",
-            color:"white",
-            width:"70%",
-            marginLeft:"auto",
-            marginRight: "auto",
+            marginTop:"20px",
+            background:"rgba(199, 135, 52, 0.728)",
+            color:"black",
+            width:"77%",
+            margin:"auto",
             padding:"20px",
-            // borderRadius:"10px",
-            // boxShadow:"0 0 60px 0 white",
-            fontFamily:"verdana",
+            border:"20px solid black",
+            borderRadius:"10px",
+            marginBottom:"30px",
+            boxShadow:"0 0 60px 0 white",
+            fontFamily:"cursive",
             float:"flex",
             flexWarp:"warp",
             justifyContent: "space-between",
@@ -80,20 +81,20 @@ const Page2 = () => {
             <div className="logo2">
                 
                     <div className="logo"></div>
-                        <div>
+                        <div className="contenedor-botones">
                             <button style={style.btn} onClick={Home}>INICIO</button>
                             <button onClick={Mision}>MISIONES</button>
                             <button onClick={Progress}>PROGRESO</button>
                             <button onClick={Events}>EVENTOS</button>
-                            <button onClick={Premio}>PREMIOS CARNITA-GAMES</button>
+                            <button onClick={Premio}>CARNITA-GAMES</button>
                         </div>   
 
-                    <div className="title-Reglamentos" style={style.reglas}></div>
+                    <div className="title-Reglamentos"></div>
                 
                 
                     <p style={style.borders}>
-                    <div className="title-title-reglamento"></div>
                         <div style={style.contenido}>
+                            <div className="title-title-reglamento"></div>
                             <p>⦁	Con el tiempo se van a habilitar los mercados donde se van a poder comprar diferentes ítems.</p>
                             <p>⦁	Cada tienda va a tener un costo acorde a lo que se venda.</p>
                             <p>⦁	La moneda de menos valor va a ser el lingote de cobre, seguido por el de hierro, el de oro, los diamantes y por último las esmeraldas.</p>
@@ -107,9 +108,9 @@ const Page2 = () => {
                             <p>⦁	Una vez por semana se abrirán las puertas del banco donde se podrá realizar el cambio de moneda y la venta de materiales tales como: Piedra, andesita, diorita, granito, tolva volcánica y pizarra abismal. (De no estár el día que el banco se abra, el jugador va a poder solicitar que por favor se abra para hacer sus tramites el día que pueda ingresar.) Solo se va a abrir una vez por semana.</p>                   
                         </div>
 
-                        <div className="title-title-reglamento2"></div>
 
                         <div style={style.contenido}>
+                            <div className="title-title-reglamento2"></div>
                             <p>⦁	La pena por robar, romper o poner bloques en casa ajena o destruir parte de las mismas va a ser de muerte con pérdida de niveles o será librado a su suerte en la arena de Carnita-Land dependiendo de la gravedad del delito. (Siempre que se pueda probar o que se investigue y se decida por unanimidad quien fue.)</p>
                             <p>⦁	Solo se pueden matar animales salvajes, pero no se pueden criar. (De esta forma hacemos que los alimentos se consigan mediante la recolección de minerales y el funcionamiento de las tiendas).</p>
                             <p>⦁	La armadura de Netherita utilizada para ir al Nether se destruirá al momento de encontrar una fortaleza. Los jugadores van a ir solo con los ítems que hayan encantado ellos mismos.</p>
@@ -118,16 +119,16 @@ const Page2 = () => {
                             <p>⦁	Los encantamientos van a estar prohibidos hasta completar la misión que lo permita. Tampoco se pueden utilizar Loots encantados (Si se consigue algo encantado, por favor, tirarlo.) </p>
                             <p>⦁	Tanto los eventos como los Carnita-Games se van a organizar con los participantes con tiempo previo. De acordar una fecha y no poder concurrir, lamentablemente no va a haber recompensa para ese jugador. </p>
                             <p>⦁	Aquel jugador que no concurra a los eventos o a los Carnita-Games va a poder reclamar su recompensa luchando en la arena de Carnita-Land.</p>
+                            <div className="title-title-reglamento3"></div>
                         </div>
 
-                        <div className="title-title-reglamento3"></div>
                     </p>
                     <div>
                             <button style={style.btn} onClick={Home}>INICIO</button>
                             <button onClick={Mision}>MISIONES</button>
                             <button onClick={Progress}>PROGRESO</button>
                             <button onClick={Events}>EVENTOS</button>
-                            <button onClick={Premio}>PREMIOS CARNITA-GAMES</button>
+                            <button onClick={Premio}>CARNITA-GAMES</button>
                         </div>   
             </div>
         </Fragment>

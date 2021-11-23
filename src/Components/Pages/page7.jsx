@@ -54,6 +54,10 @@ const Page7 = () => {
         btn:{
             background:"green"
         },
+        btnEnviar:{
+            margin:"auto",
+            width: "245px",
+        }
         // formulario:{
         //     padding:"10px",
         //     borderRadius:"5px",
@@ -81,17 +85,17 @@ const Page7 = () => {
                                     <input type="text" placeholder="Nick" />
                                 </div>
                                 <div>
-                                    <button>ENVIAR</button>
+                                    <button style={style.btnEnviar}>ENVIAR</button>
                                 </div>
                             </div>
                     </form>
                 </div>
 
-                <div>
+                <div >
                     <button style={style.btn} onClick={Home}>INICIO</button>
                     <button onClick={Bases}>REGLAMENTOS</button>
                     <button onClick={Mision}>MISIONES</button>
-                    <button onClick={Premio}>PREMIOS CARNITA-GAMES</button>
+                    <button onClick={Premio}>CARNITA-GAMES</button>
                     <button onClick={Events}>EVENTOS</button>
                 </div>
             </div>

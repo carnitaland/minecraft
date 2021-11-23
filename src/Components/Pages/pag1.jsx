@@ -39,10 +39,10 @@ const Page1 = () => {
             background:"rgba(0, 0, 0, 0.452)",
             color:"white",
             width:"70%",
-            marginLeft:"auto",
-            marginRight: "auto",
+            margin:"auto",
             padding:"20px",
             marginTop:"370px",
+            marginBottom:"30px",
             borderRadius:"10px",
             boxShadow:"0 0 10px 0 white",
             fontFamily:"verdana"
@@ -74,16 +74,15 @@ const Page1 = () => {
             <Fragment>
                 <div className="logoInicio">
                     <div className="logo"></div>
-                        <div>
+                        <div className="contenedor-botones">
                             <button onClick={Bases}>REGLAMENTOS</button>
                             <button onClick={Mision}>MISIONES</button>
                             <button onClick={Progress}>PROGRESO</button>
                             <button onClick={Events}>EVENTOS</button>
-                            <button onClick={Premio}>PREMIOS CARNITA-GAMES</button>
-                        </div>
-                        <div>
+                            <button onClick={Premio}>CARNITA-GAMES</button>
                             <button onClick={Registrate}>REGISTRATE</button>
                         </div>
+                        
                         <div style={style.cuadros}>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, aut officiis. Veniam dolor quidem ex voluptatem adipisci, odit enim, temporibus quam tempore voluptatibus facere ut rem aperiam quaerat porro alias?</p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque harum fugit illo omnis quam reprehenderit voluptate assumenda eaque amet atque dolorum repellendus ullam blanditiis animi quia, ex dolorem esse ab.</p>
@@ -99,10 +98,7 @@ const Page1 = () => {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque harum fugit illo omnis quam reprehenderit voluptate assumenda eaque amet atque dolorum repellendus ullam blanditiis animi quia, ex dolorem esse ab.</p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione placeat aliquam laboriosam similique iste, voluptatibus veritatis minima odio possimus nulla inventore eveniet soluta aspernatur suscipit maiores autem, molestiae sit animi.</p>
                         </div>
-                </div>
-    
-    
-                   
+                </div>  
             </Fragment>
         
         )
@@ -114,16 +110,15 @@ const Page1 = () => {
         return(
             <Fragment>
             <div className="logoInicio">
-                <div className="logo"></div>
+                <div className="logo"><Skeleton /></div>
                     <div>
-                        <button onClick={Bases}><Skeleton /></button>
-                        <button onClick={Mision}><Skeleton /></button>
-                        <button onClick={Progress}><Skeleton /></button>
-                        <button onClick={Events}><Skeleton /></button>
-                        <button onClick={Premio}><Skeleton /></button>
+                       <Skeleton />
+                       <Skeleton />
+                       <Skeleton />
+                       <Skeleton />
                     </div>
                     <div>
-                        <button onClick={Registrate}><Skeleton /></button>
+                    <Skeleton />
                     </div>
                     <div style={style.cuadros}>
                         <p><Skeleton /></p>

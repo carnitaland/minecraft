@@ -63,13 +63,13 @@ const Page4 = () => {
         <Fragment>
             <div className="logoEventos">
                 <div className="logo"></div>
-                <div>
+                <div className="contenedor-botones">
                     
                     <button style={style.btn} onClick={Home}>INICIO</button>
                     <button onClick={Bases}>REGLAMENTOS</button>
                     <button onClick={Mision}>MISIONES</button>
                     <button onClick={Progress}>PROGRESO</button>
-                    <button onClick={Premio}>PREMIOS CARNITA-GAMES</button>
+                    <button onClick={Premio}>CARNITA-GAMES</button>
                     
                 </div>
 
@@ -92,7 +92,7 @@ const Page4 = () => {
                     <button onClick={Bases}>REGLAMENTOS</button>
                     <button onClick={Mision}>MISIONES</button>
                     <button onClick={Progress}>PROGRESO</button>
-                    <button onClick={Premio}>PREMIOS CARNITA-GAMES</button>
+                    <button onClick={Premio}>CARNITA-GAMES</button>
                 </div>
 
             </div>

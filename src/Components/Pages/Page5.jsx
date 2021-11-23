@@ -72,9 +72,8 @@ const Page5 = () => {
         <Fragment>
             
             <div className="logoPremio">
-                <div>
                     <div className="logo"></div>
-            
+                <div className="contenedor-botones">
                     <button style={style.btn} onClick={Home}>INICIO</button>
                     <button onClick={Bases}>REGLAMENTOS</button>
                     <button onClick={Mision}>MISIONES</button>
