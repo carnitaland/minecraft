@@ -45,9 +45,15 @@ button:hover{
   color: white;
 }
 
+.contenedor-input {
+  margin: auto;
+
+}
+
 input{
+  width: 190px;
   padding: 10px;
-  margin: 10px;
+  margin: 20px;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.345);
   color: white;
@@ -73,8 +79,8 @@ form{
   border-radius: 10px;
   background-color: rgba(6, 215, 252, 0.459);
   box-shadow: 0 0 50px 0 white;
-  background-image: url(Components/Img/Premio.png);
-  background-size: 500px;
+  background-image: url(Components/Img/Fondos-de-minecraft.jpg);
+  /* background-size: 500px; */
   background-repeat: no-repeat;
   background-clip: border-box;
   background-position: left;
@@ -119,7 +125,7 @@ form{
 }
 
 .logo2{
-  background-image: url(Components/Img/reglamentos2.png);
+  background-image: url(Components/Img/Fondos-de-minecraft.jpg);
   background-position: center; 
   background-repeat: no-repeat;
   background-attachment: fixed;
