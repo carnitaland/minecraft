@@ -28,13 +28,13 @@ const StyledTableRow = withStyles((theme) => ({
 },
 }))(TableRow);
 
-function createData(name, calories, fat, carbs, protein) {
-    return { name, calories, fat, carbs, protein };
-}
+// function createData(name, apellido, nick, mail) {
+//     return { name, apellido, nick, mail };
+// }
 
 const rows = [
-  createData('Franco', 'Valenzuela', 'Bruno', 'fv@gmail.com.ar'),
-  createData('Patricia', 'Borges', 'La Pato', 'pbv@gmail.com.ar'),
+  // createData('Franco', 'Valenzuela', 'Bruno', 'fv@gmail.com.ar'),
+  // createData('Patricia', 'Borges', 'La Pato', 'pbv@gmail.com.ar'),
 //   createData('Eclair', 262, 16.0, 24, 6.0),
 //   createData('Cupcake', 305, 3.7, 67, 4.3),
 //   createData('Gingerbread', 356, 16.0, 49, 3.9),
@@ -46,8 +46,16 @@ const useStyles = makeStyles({
   },
 });
 
-export default function CustomizedTables() {
+export default function CustomizedTables(props) {
+  const { DatoFinal } = props
+  console.log(DatoFinal)
+  const Listado = [];
+  Listado.push(DatoFinal)
   const classes = useStyles();
+
+  Listado.map((x)=>{
+    console.log(x[0])
+  })
 
   return (
     <TableContainer component={Paper}>
@@ -61,14 +69,14 @@ export default function CustomizedTables() {
           </TableRow>
         </TableHead>
         <TableBody>
-          {rows.map((row) => (
+          {Listado.map((row) => (
             <StyledTableRow key={row.name}>
               <StyledTableCell component="th" scope="row">
-                {row.name}
+                {row[0]}
               </StyledTableCell>
-              <StyledTableCell align="right">{row.calories}</StyledTableCell>
-              <StyledTableCell align="right">{row.fat}</StyledTableCell>
-              <StyledTableCell align="right">{row.carbs}</StyledTableCell>
+              <StyledTableCell align="right">{row[1]}</StyledTableCell>
+              <StyledTableCell align="right">{row[2]}</StyledTableCell>
+              <StyledTableCell align="right">{row[3]}</StyledTableCell>
               
             </StyledTableRow>
           ))}

@@ -191,6 +191,9 @@ form{
 
 
 .title-Reglamentos, .title-Misiones, .title-Progreso, .title-Eventos, .title-Registro {
+  background-color: rgba(0, 0, 0, 0.445);
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 white;
   padding: 50px;
   width: 70%;
   margin: auto;

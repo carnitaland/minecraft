@@ -3,7 +3,7 @@ import { Fragment } from "react";
 import { useNavigate } from "react-router";
 import Formulario from '../Formulario'
 
-const Page5 = () => {
+const Page5 = (props) => {
 
     let navigate = useNavigate();
 
@@ -68,6 +68,10 @@ const Page5 = () => {
         }
     }
 
+    const { datasfinal } = props
+
+    console.log(datasfinal)
+
     return(
         <Fragment>
             
@@ -109,19 +113,7 @@ const Page5 = () => {
                 </div>
                 
                 <div className="jugadores">
-                    <Formulario />
-                    {/* <div className="datos" >
-                        <label htmlFor="" >Nombre</label>
-                    </div>
-                    <div className="datos">
-                        <label htmlFor="" >Apellido</label>
-                    </div>
-                    <div className="datos">
-                        <label htmlFor="" >NickName</label>
-                    </div>
-                    <div>
-
-                    </div> */}
+                    <Formulario DatoFinal={datasfinal} />
                 </div>
                 <div>
                     <button style={style.btn} onClick={Home}>INICIO</button>

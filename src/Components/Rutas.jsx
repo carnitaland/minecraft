@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Inicio from './Inicio'
 import BasesCondiciones from './Base-condiciones';
 import {
@@ -16,6 +16,11 @@ import Eventos from './Eventos';
 import Registrate from './Registrate';
 
 const Rutas = () => {
+    const [DatosFinales, setDatosFinales] = useState("")
+    const ObDatosTorneo = (valor) => {
+        setDatosFinales(valor)
+    }
+    console.log(DatosFinales)
     return(
         <Fragment>
             <Router>
@@ -24,9 +29,9 @@ const Rutas = () => {
                     <Route path="/basesycondiciones" element={<BasesCondiciones />}/>
                     <Route path="/misiones" element={<Misiones />} />
                     <Route path="/progreso" element={<Progreso />} />
-                    <Route path="/premios" element={<Premios />} />
+                    <Route path="/premios" element={<Premios datass={DatosFinales} />} />
                     <Route path="/eventos" element={<Eventos />} />
-                    <Route path="/registrate" element={<Registrate />} />
+                    <Route path="/registrate" element={<Registrate todo={ObDatosTorneo} />} />
                 </Routes>
                 
             </Router>

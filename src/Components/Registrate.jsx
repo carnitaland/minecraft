@@ -1,10 +1,15 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import Page7 from "./Pages/page7";
 
-const Registrate = () => {
+const Registrate = (props) => {
+    const {todo} = props
+    const obtenerdatos = (valor) => {
+        todo(valor)
+    }
+ 
     return(
         <Fragment>
-            <Page7 />
+            <Page7 traer={obtenerdatos}/>
         </Fragment>
     )
 }

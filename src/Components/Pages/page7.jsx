@@ -1,8 +1,8 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import { useNavigate } from 'react-router-dom';
 import '../../App.css';
 
-const Page7 = () => {
+const Page7 = (props) => {
 
     let navigate = useNavigate();
 
@@ -58,13 +58,35 @@ const Page7 = () => {
             margin:"auto",
             width: "245px",
         }
-        // formulario:{
-        //     padding:"10px",
-        //     borderRadius:"5px",
-        //     // backgroundColor:"rgba(0, 0, 0, 0.281)",
-        //     // boxShadow:"0 0 20px 0 white"
-        // }
     }
+    const [dataNombre, setDataNombre] = useState("");
+    const [dataApellido, setDataApellido] = useState("");
+    const [dataNick, setDataNick] = useState("");
+    const [dataMail, setDataMail] = useState("");
+
+    const {traer} = props
+
+    const handleChangeNombre =(e)=>{
+        setDataNombre(e.target.value)
+    }
+    const handleChangeApellido = (e) => {
+        setDataApellido(e.target.value)
+    }
+    const handleChangeNick = (e) => {
+        setDataNick(e.target.value)
+    }
+    const handleChangeMail = (e) => {
+        setDataMail(e.target.value)
+    }
+
+    let Datos = []
+    Datos.push(dataNombre, dataApellido, dataNick, dataMail)
+
+    
+    const validarDatos= () => {
+        traer(Datos)
+    }
+
     return(
         <Fragment>
             <div className="logoRegistrarse">
@@ -72,20 +94,23 @@ const Page7 = () => {
                 <div className="title-Registro"></div>
                
                 <div>
-                    <form action="" method="get">
+                    <form>
                         <div className="formulario"></div>
                             <div>
                                 <div className="contenedor-input">
-                                    <input type="text" placeholder="nombre" />
+                                    <input type="text" placeholder="nombre" name="nombre" onChange={handleChangeNombre} />
                                 </div>
                                 <div className="contenedor-input">
-                                    <input type="text" placeholder="Apellido" />
+                                    <input type="text" placeholder="Apellido" name="apellido"onChange={handleChangeApellido} />
                                 </div>
                                 <div className="contenedor-input">
-                                    <input type="text" placeholder="Nick" />
+                                    <input type="text" placeholder="Nick" name="nick" onChange={handleChangeNick}/>
+                                </div>
+                                <div className="contenedor-input">
+                                    <input type="text" placeholder="E-mail" name="mail" onChange={handleChangeMail}/>
                                 </div>
                                 <div>
-                                    <button style={style.btnEnviar}>ENVIAR</button>
+                                    <button  type="button" style={style.btnEnviar} onClick={validarDatos}>PARTICIPAR</button>
                                 </div>
                             </div>
                     </form>
