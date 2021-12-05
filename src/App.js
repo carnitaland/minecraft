@@ -1,11 +1,13 @@
-import React from 'react';
-import Rutas from './Components/Rutas';
+import logo from './logo.svg';
 import './App.css';
+import Ruts from './Ruts/Ruts';
 
 function App() {
   return (
     <div className="App">
-      <Rutas />
+      <header className="App-header">
+        <Ruts />
+      </header>
     </div>
   );
 }

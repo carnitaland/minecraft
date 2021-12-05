@@ -2,293 +2,197 @@
   text-align: center;
 }
 
-.contenedor-botones{
-  margin: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  background-color: rgba(0, 0, 0, 0.425);
-  box-shadow: 0 0 30px 0 white;
-}
-
-button {
-  width: 393px;
-  background-color: rgba(6, 215, 252, 0.776);
-  color:rgb(255, 255, 255);
-  /* display: inline-block; */
-  font-size: 1em;
-  margin: 10px;
-  padding: 8px;
-  border-radius: 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  transition: 1s;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  float: flex;
-}
-button:hover{
-  color: white;
-  cursor: pointer;
-  transition: 1s;
-  /* background-color: rgba(6, 215, 252, 0.824); */
-  background-image: url(Components/Img/Eventos.png);
-  background-position: top;
-  box-shadow: 0 0 50px 0 rgb(2, 62, 139);
-  
-}
-.prueba {
-  background-color: rgba(199, 135, 52, 0.728);
-}
-::-webkit-input-placeholder{
-  text-align: center;
-  font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  /* display: flex; */
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.contenedor-input {
-  margin: auto;
+/*BACKGROUND*/
 
-}
+        .background {
+          background-image: url(Img/principal.jpg);
+        }
 
-input{
-  width: 190px;
-  padding: 10px;
-  margin: 20px;
-  border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.345);
-  color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  transition: 1s;
-  text-align: center;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  float: flex;
-}
+        .background-Inicio {
+          background-image: url(Img/Fondos-de-minecraft.jpg);
+        }
 
-input:hover{
-  box-shadow: 0 0 10px 0 white;
-  cursor: pointer;
-  transition: 1s;
-  padding: 11px;
-}
+        .background-Reglas {
+          background-image: url(Img/fondo-mision.png);
+        }
 
-form{
-  margin-top: 50px;
-  margin-bottom: 50px;
-  border:20px solid black;
-  border-radius: 10px;
-  background-color: rgba(6, 215, 252, 0.459);
-  box-shadow: 0 0 50px 0 white;
-  background-image: url(Components/Img/Fondos-de-minecraft.jpg);
-  /* background-size: 500px; */
-  background-repeat: no-repeat;
-  background-clip: border-box;
-  background-position: left;
-  width: 61%;
-  padding: 50px;
-  margin-right: auto;
-  margin-left: auto;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  float: flex;
-}
+        .background-misiones {
+          background-image: url(Img/reglamentos2.png);
+        }
 
-.formulario {
-  background-image: url(Components/Img/inscripcion.png);
-  padding: 90px;
-  width: 28%;
-  margin: auto;
-  float: inline-block;
-  background-position: center;
-  background-size: 240px;
-  background-repeat: no-repeat;  
-  flex-wrap: wrap;
-  justify-content: space-between;
-  float: flex;
-  flex-shrink: 1;
-  flex-basis: 24%;
-}
+        .background-evento {
+          background-image: url(Img/Canita-land-game.jpg);
+        }
 
-.logo {
-  background-image: url(Components/Img/CARNITA\ LAVA\ FULL.PNG);
-  background-size: 375px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.307);
-  border-bottom: 2px solid wheat;
-  box-shadow: 0 0 30px 0 white;
-  /* background-attachment: fixed; */
-  padding: 100px;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  float: flex;
-}
+        .background-carnita {
+          background-image: url(Img/reglamentos.png);
+        }
 
-.logo2{
-  background-image: url(Components/Img/Fondos-de-minecraft.jpg);
-  background-position: center; 
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  float: flex;
-}
+        .background-avatar {
+          background-image: url(Img/Progresos-land.jpg);
+        }
 
-.title-Reglamentos {
-  background-image: url(Components/Img/REGLAMENTO.png);
-  background-color: rgba(0, 0, 0, 0.514);
-  border-radius: 5px;
-  box-shadow: 0 0 20px 0 white;
-}
+        .background-evento, .background-Inicio, .background-misiones, .background-Reglas, .background, .background-carnita, .background-avatar {
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-attachment: fixed;
+          min-height: 100vh;
+        }
 
-.title-title-reglamento {
-  background-image: url(Components/Img/vamos-primero.png);
-  padding: 46px;
-    background-position: center;
-    background-size: 214px;
-    width: 56%;
-    margin: auto;
-    background-repeat: no-repeat;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    float: flex;
-    flex-shrink: 1;
-    flex-basis: 24%;
-}
+/*LOGO*/
 
-.title-title-reglamento2 {
-  background-image: url(Components/Img/ahora-vayamos.png);
-}
+        .container-logo {
+          background-color: rgba(0, 0, 0, 0.397);
+          border-bottom: 1px solid white;
+        }
 
-.title-title-reglamento3 {
-  background-image: url(Components/Img/todas-las-normas.png);
-}
+        .logo {
+          background-image: url(Img/CARNITA\ LAVA\ FULL.PNG);
+          padding: 150px;
+          padding-bottom: 70px;
+          width: 43px;
+          margin: auto;
+          background-size: 353px;
+          background-repeat: no-repeat;
+          background-position: center;
+          
+        }
 
-.title-Misiones {
-  background-image: url(Components/Img/MISIONES.png);
-}
+/* TITLE */
 
-.title-Progreso {
-  background-image: url(Components/Img/PROGRESOS.png);
-}
+        .inicio {
+          background-image: url(Img//inicio.png);
+        }
 
-.title-Carnita-Land {
-  background-image: url(Components/Img/CARNITA-LAND.png);
-}
+        .bienvenidos {
+          background-image: url(Img//bienvenidos.png);
+        }
 
-.title-Games {
-  background-image: url(Components/Img/GAMES.png);
-}
+        .reglamento {
+          background-image: url(Img//reglamento.png);
+        }
 
-.title-Eventos {
-  background-image: url(Components/Img/EVENTOS\ \(2\).png);
-}
+        .carnita-games {
+          background-image: url(Img/carnita.png);
+        }
 
-.title-Registro {
-  background-image: url(Components/Img/REGISTRATE.png);
-}
+        .eventos {
+          background-image: url(Img/eventos.png);
+        }
 
+        .misiones {
+          background-image: url(Img/misiones.png);
+        }
 
-.title-Reglamentos, .title-Misiones, .title-Progreso, .title-Eventos, .title-Registro {
-  background-color: rgba(0, 0, 0, 0.445);
-  border-radius: 10px;
-  box-shadow: 0 0 20px 0 white;
-  padding: 50px;
-  width: 70%;
-  margin: auto;
-  margin-top: 30px;
-  margin-bottom: 43px;
-  float: inline-block;
-  background-position: center;
-  background-size: 376px;
-  background-repeat: no-repeat;  
-  flex-wrap: wrap;
-  justify-content: space-between;
-  float: flex;
-  flex-shrink: 1;
-  flex-basis: 24%;
-}
+        .avatar {
+          background-image: url(Img/avatars.png);
+        }
 
-.title-title-reglamento3, .title-title-reglamento2 {
-  padding: 46px;
-  background-position: center;
-  background-size: 214px;
-  width: 56%;
-  margin: auto;
-  background-repeat: no-repeat;
+        .bienvenidos, .inicio, .reglamento, .carnita-games, .eventos, .misiones, .avatar {
+          padding: 150px;
+          width: 43px;
+          margin: auto;
+          background-size: 353px;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
 
-  flex-wrap: wrap;
-  justify-content: space-between;
-  float: flex;
-  flex-shrink: 1;
-  flex-basis: 24%;
-}
+        .container-boton {
+          background-color: rgba(0, 0, 0, 0.384);
+        }
 
-.title-Games, .title-Carnita-Land{
-  padding: 90px;
-  background-position: center;
-  background-size: 380px;
-  background-repeat: no-repeat;
-}
+/*BOTTONS*/
 
-.logoInicio {
-  background-image: url(Components/Img/principal.jpg);
-}
+        button {
+          padding: 10px;
+          margin: 20px;
+          width: 156px;
+          background-color: blue;
+          color: white;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          border-radius: 5px;
+        }
 
-.logoMisiones{
-  background-image: url(Components/Img/fondo-mision.png);
-}
+        .boton-inicio {
+          background-image: url(Img/inicioboton.png);
+        }
 
-.logoEventos {
-  background-image: url(Components/Img/Reglas.jpg);
-}
+        .boton-carnita {
+          background-image: url(Img/carnita-games.btn.png);
+        }
 
-.logoPremio {
-  background-image: url(Components/Img/Canita-land-game.jpg);
-}
+        .boton-misiones {
+          background-image: url(Img/misiones.btn.png);
+        }
 
-.logoProgreso {
-  background-image: url(Components/Img/Progresos-land.jpg);
-}
+        .boton-evento {
+          background-image: url(Img/eventos.btn.png);
+        }
 
-.logoRegistrarse {
-  background-image: url(Components/Img/Registrarse.jpg);
-}
+        .boton-avatar {
+          background-image: url(Img/avatars.btn.png);
+        }
 
-.logoEventos, .logoMisiones, .logoPremio, .logoProgreso, .logoRegistrarse, .logoInicio {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  float: flex;
-  height: max-content;
+        .boton-reglas {
+          background-image: url(Img/Reglamento.btn.png);
+        }
 
-  flex-shrink: 1;
-  flex-basis: 24%;
-}
+        .boton-inicio, .boton-carnita, .boton-misiones, .boton-evento, .boton-avatar, .boton-reglas {
+          padding: 22px;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: 142px;
+        }
 
-.jugadores {
-  width: 70%;
-  margin: auto;
-  background-color: rgba(0, 0, 0, 0.404);
-  border-radius: 10px;
-  border: 1px solid wheat;
-  box-shadow: 0 0 10px 0 white;
-}
+/*REGLAMENTOS*/
 
-.datos{
-  width: 190px;
-  display: inline-block;
-  justify-content: space-between;
-  height: max-content;
-  margin: 40px;
-  color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
-  border: 1px solid white;
-  border-radius: 10px;
+        .title-title-reglamento {
+          background-image: url(Img/vamos-primero.png);
+          padding: 46px;
+            background-position: center;
+            background-size: 214px;
+            width: 56%;
+            margin: auto;
+            background-repeat: no-repeat;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            float: flex;
+            flex-shrink: 1;
+            flex-basis: 24%;
+        }
 
-}
+        .title-title-reglamento2 {
+          background-image: url(Img/ahora-vayamos.png);
+        }
+
+        .title-title-reglamento3 {
+          background-image: url(Img/todas-las-normas.png);
+        }
+
+        .title-title-reglamento3, .title-title-reglamento2 {
+          padding: 46px;
+          background-position: center;
+          background-size: 214px;
+          width: 56%;
+          margin: auto;
+          background-repeat: no-repeat;
+
+          flex-wrap: wrap;
+          justify-content: space-between;
+          float: flex;
+          flex-shrink: 1;
+          flex-basis: 24%;
+        }
+
