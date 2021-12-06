@@ -208,4 +208,9 @@
           background-color: rgba(0, 0, 0, 0.445);
           width: 80%;
           margin: auto;
+          padding: 20px;
+          margin-top: 30px;
+          border-radius: 5px;
+          border: 1px solid white;
+          box-shadow: 0 0 20px 10px black;
         }
