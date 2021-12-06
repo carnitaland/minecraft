@@ -64,9 +64,9 @@ const PageReglas = () => {
                 <div className="container-logo">
                     <div className="logo"></div>
                 </div>
-                <BotonsInicio />
                 <BottonMision />
                 <BottonEvento />
+                <BotonsInicio />
                 <BottonCarnita />
                 <BotonAvatar />
                 <Reglamento />

@@ -15,8 +15,8 @@ const PageMisiones = () => {
                     <div className="logo"></div>
                 </div>
                 <BottonReglas/>
-                <BotonsInicio />
                 <BottonEvento />
+                <BotonsInicio />
                 <BottonCarnita />
                 <BotonAvatar />
                 <Misiones />

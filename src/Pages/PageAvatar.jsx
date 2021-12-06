@@ -15,9 +15,9 @@ const PageAvatar = () => {
                 </div>
                 <BottonCarnita />
                 <BottonEvento />
+                <BotonsInicio />
                 <BottonReglas />
                 <BottonMision />
-                <BotonsInicio />
                 <Avatar />
 
             </div>
