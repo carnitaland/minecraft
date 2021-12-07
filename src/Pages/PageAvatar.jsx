@@ -22,11 +22,11 @@ const PageAvatar = () => {
                 <BotonsInicio />
                 <BottonReglas />
                 <BottonMision />
-
-                <Avatars />
                 <div className="container-avatar">
                    <Avatar />
                 </div>
+
+                <Avatars />
             </div>
         </Fragment>
     )
