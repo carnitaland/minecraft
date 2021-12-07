@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-const Avatar = () => {
+const Avatars = () => {
     return(
         <Fragment>
             <div className="container-boton">
@@ -10,4 +10,4 @@ const Avatar = () => {
     )
 }
 
-export default Avatar;
+export default Avatars;

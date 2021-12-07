@@ -3,10 +3,14 @@ import BottonCarnita from "../Components/Botonera/BottonCarnita";
 import BottonEvento from "../Components/Botonera/BottonEvento";
 import BottonReglas from "../Components/Botonera/BottonReglas";
 import BotonsInicio from "../Components/Botonera/BotonsInicio";
-import Avatar from "../Components/Titles/Avatar";
 import BottonMision from "../Components/Botonera/BottonMision";
+import Avatars from "../Components/Titles/Avatars";
+import Avatar from "../Components/Materials/Avatar"
+
+
 
 const PageAvatar = () => {
+    
     return(
         <Fragment>
             <div className="background-avatar">
@@ -18,8 +22,11 @@ const PageAvatar = () => {
                 <BotonsInicio />
                 <BottonReglas />
                 <BottonMision />
-                <Avatar />
 
+                <Avatars />
+                <div className="container-avatar">
+                   <Avatar />
+                </div>
             </div>
         </Fragment>
     )

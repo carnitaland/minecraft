@@ -48,7 +48,7 @@
           background-repeat: no-repeat;
           background-position: center;
           background-attachment: fixed;
-          min-height: 100vh;
+          min-height: 200vh;
         }
 
 /*LOGO*/
@@ -119,6 +119,7 @@
 /*BOTTONS*/
 
         button {
+          color: white;
           padding: 10px;
           margin: 20px;
           width: 246px;
@@ -214,4 +215,17 @@
           border-radius: 5px;
           border: 1px solid white;
           box-shadow: 0 0 20px 10px black;
+        }
+/*CONTAINER AVATAR*/
+        .container-avatar{
+          width: 10%;
+          margin: auto;
+          margin-top: 40px;
+        }
+        .prueba {
+          background-image: url(Img/Canita-land-game.jpg);
+          background-position: center;
+          background-size: cover;
+          padding: 40px;
+          margin-bottom: 50px;
         }

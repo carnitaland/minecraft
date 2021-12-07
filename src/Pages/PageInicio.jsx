@@ -17,8 +17,8 @@ const PageInicio = () => {
                 </div>
                 <BottonReglas />
                 <BottonMision />
-                <BottonEvento />
                 <BottonCarnita />
+                <BottonEvento />
                 <BotonAvatar />
                 <Inicio />
             </div>
