@@ -5,6 +5,7 @@ import BottonReglas from "../Components/Botonera/BottonReglas";
 import BotonsInicio from "../Components/Botonera/BotonsInicio";
 import BotonAvatar from "../Components/Botonera/BotonAvatar";
 import CarnitaGames from "../Components/Titles/CarnitaGames";
+import Table from "../Components/Tabla/Table";
 const PageCarnita = () => {
     return(
         <Fragment>
@@ -21,9 +22,7 @@ const PageCarnita = () => {
                 <CarnitaGames />
 
                 <div className="container-description">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum magni qui sequi cum quas repellat sunt reiciendis, illum beatae laborum deserunt aliquid rem quam asperiores. Assumenda a nihil eius commodi.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis accusantium enim vitae aperiam ipsum iure corporis dicta reprehenderit animi, doloribus omnis alias impedit a et iusto recusandae quo, voluptate odio.</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur porro sint animi, consectetur voluptas illum. Iusto cupiditate maxime reprehenderit possimus, rem tempore ex, quo voluptate nam voluptatem dolore rerum! Recusandae?</p>
+                   <Table />
                 </div>
 
             </div>
