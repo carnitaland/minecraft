@@ -233,5 +233,8 @@
           background-position: center;
           background-size: 51px;
           background-repeat: no-repeat;
+          background-color: rgba(0, 0, 0, 0.733);
           padding: 70px;
+          border-radius: 100px;
+          border-left-style: dashed;
         }
