@@ -7,6 +7,7 @@ import BottonMision from "../Components/Botonera/BottonMision";
 import Avatars from "../Components/Titles/Avatars";
 import Avatar from "../Components/Materials/Avatar"
 import Avatar2 from "../Components/Materials/Avatar2";
+import Avatar3 from "../Components/Materials/Avatar3";
 
 
 
@@ -28,6 +29,7 @@ const PageAvatar = () => {
                 <div className="container-avatar">
                    <Avatar />
                    <Avatar2 />
+                   <Avatar3 />
                 </div>
             </div>
         </Fragment>
