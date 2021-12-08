@@ -217,11 +217,16 @@
           box-shadow: 0 0 20px 10px black;
         }
 /*CONTAINER AVATAR*/
-        .container-avatar{
-          
-        }
-        .prueba {
+        .avatar {
           background-image: url(Img/Canita-land-game.jpg);
+          background-position: center;
+          background-size: cover;
+          padding: 40px;
+          margin-bottom: 50px;
+        }
+
+        .avatar2 {
+          background-image: url(Img/fondo-mision.png);
           background-position: center;
           background-size: cover;
           padding: 40px;

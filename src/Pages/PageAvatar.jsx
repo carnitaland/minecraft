@@ -6,6 +6,7 @@ import BotonsInicio from "../Components/Botonera/BotonsInicio";
 import BottonMision from "../Components/Botonera/BottonMision";
 import Avatars from "../Components/Titles/Avatars";
 import Avatar from "../Components/Materials/Avatar"
+import Avatar2 from "../Components/Materials/Avatar2";
 
 
 
@@ -26,6 +27,7 @@ const PageAvatar = () => {
                 <Avatars />
                 <div className="container-avatar">
                    <Avatar />
+                   <Avatar2 />
                 </div>
             </div>
         </Fragment>
