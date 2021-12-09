@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { withStyles, makeStyles } from '@material-ui/core/styles';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
@@ -30,23 +30,32 @@ function createData(nombre, nickname) {
   return { nombre, nickname };
 }
 
-const rows = [
-  createData('Franco', 'brunos'),
-  createData('Patricia', 'Pato'),
-  createData('Nicolas', 'Nico'),
-//   createData('Cupcake', 305, 3.7, 67, 4.3),
-//   createData('Gingerbread', 356, 16.0, 49, 3.9),
-];
 
 const useStyles = makeStyles({
-  table: {
-    minWidth: 700,
-  },
+    table: {
+        minWidth: 700,
+    },
 });
 
-export default function CustomizedTables() {
+export default function CustomizedTables(props) {
+    const { letsGo } = props;
+    let user1
+    let usernick
+    for (let i=0;i<letsGo.length;i++) {
+        console.log(letsGo[i].nombre)
+        user1 = letsGo[i].nombre
+        usernick = letsGo[i].nickname
+    }
+ 
+    const rows = [
+      createData(user1, usernick),
+      createData('Patricia', 'Pato'),
+      createData('Nicolas', 'Nico'),
+    //   createData('Cupcake', 305, 3.7, 67, 4.3),
+    //   createData('Gingerbread', 356, 16.0, 49, 3.9),
+    ];
   const classes = useStyles();
-
+    
   return (
     <TableContainer component={Paper}>
       <Table className={classes.table} aria-label="customized table">

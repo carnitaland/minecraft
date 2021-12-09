@@ -6,7 +6,10 @@ import BotonsInicio from "../Components/Botonera/BotonsInicio";
 import BotonAvatar from "../Components/Botonera/BotonAvatar";
 import CarnitaGames from "../Components/Titles/CarnitaGames";
 import Table from "../Components/Tabla/Table";
-const PageCarnita = () => {
+
+const PageCarnita = (props) => {
+    const { go } = props
+    console.log(go)
     return(
         <Fragment>
             <div className="background-carnita">
@@ -22,7 +25,7 @@ const PageCarnita = () => {
                 <CarnitaGames />
 
                 <div className="container-description">
-                   <Table />
+                   <Table letsGo={go} />
                 </div>
 
             </div>
