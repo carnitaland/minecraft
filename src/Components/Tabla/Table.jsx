@@ -38,18 +38,25 @@ const useStyles = makeStyles({
 });
 
 export default function CustomizedTables(props) {
-    const { letsGo } = props;
-    let user1
-    let usernick
-    for (let i=0;i<letsGo.length;i++) {
-        console.log(letsGo[i].nombre)
-        user1 = letsGo[i].nombre
-        usernick = letsGo[i].nickname
-    }
+
+  const { franco, pato } = props
+
+  var nombre, nickname;
+  var nombre2, nickname2;
+
+  for (let i=0;i<franco.length;i++) {
+    nombre=franco[i].nombre
+    nickname=franco[i].nickname
+  }
+
+  for (let i=0;i<pato.length;i++) {
+    nombre2=pato[i].nombre
+    nickname2=pato[i].nickname
+  }
  
     const rows = [
-      createData(user1, usernick),
-      createData('Patricia', 'Pato'),
+      createData(nombre, nickname),
+      createData(nombre2, nickname2),
       createData('Nicolas', 'Nico'),
     //   createData('Cupcake', 305, 3.7, 67, 4.3),
     //   createData('Gingerbread', 356, 16.0, 49, 3.9),

@@ -17,11 +17,16 @@ import PageCarnita from "../Pages/PageCarnita";
 import PageAvatar from "../Pages/PageAvatar";
 
 const Ruts = () => {
-    const [avatar1, setAvatar1] = useState("")
-    const TraerAvatar = (dato) => {
-        setAvatar1(dato)
+    const [franco, setFranco] = useState([])
+    const UserFranco = (user) => {
+        setFranco(user)
     }
-    console.log(avatar1)
+
+    const  [pato, setPato] = useState([])
+    const  UserPato = (user2) =>{
+        setPato(user2)
+        console.log(pato)
+    }
     return(
         <Fragment>
             <Router>
@@ -31,8 +36,8 @@ const Ruts = () => {
                     <Route path="/reglamentos" element={<PageReglas />} />
                     <Route path="/misiones" element={<PageMisiones />} />
                     <Route path="/eventos" element={<PageEventos />} />
-                    <Route path="/carnita-games" element={<PageCarnita go={avatar1} />} />
-                    <Route path="/avatar" element={<PageAvatar dato={TraerAvatar} />} />
+                    <Route path="/carnita-games" element={<PageCarnita user={franco} user2={pato} />} />
+                    <Route path="/avatar" element={<PageAvatar buscar={UserFranco} buscarPato={UserPato} />} />
                 </Routes>
             </Router>
         </Fragment>

@@ -8,8 +8,8 @@ import CarnitaGames from "../Components/Titles/CarnitaGames";
 import Table from "../Components/Tabla/Table";
 
 const PageCarnita = (props) => {
-    const { go } = props
-    console.log(go)
+   const { user, user2 } = props;
+   console.log(user)
     return(
         <Fragment>
             <div className="background-carnita">
@@ -25,7 +25,7 @@ const PageCarnita = (props) => {
                 <CarnitaGames />
 
                 <div className="container-description">
-                   <Table letsGo={go} />
+                   <Table franco={user} pato={user2}/>
                 </div>
 
             </div>

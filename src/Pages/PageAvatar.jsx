@@ -12,12 +12,8 @@ import Avatar3 from "../Components/Materials/Avatar3";
 
 
 const PageAvatar = (props) => {
-    const {dato} = props
-    const [nivel, setnivel] = useState("");
-    const AvatarF = (traer) => {
-        setnivel(traer)
-        dato(nivel)
-    }
+    const { buscar, buscarPato } = props
+    
     return(
         <Fragment>
             <div className="background-avatar">
@@ -32,8 +28,8 @@ const PageAvatar = (props) => {
 
                 <Avatars />
                 <div className="container-avatar">
-                   <Avatar traer={AvatarF} />
-                   <Avatar2 />
+                   <Avatar buscar={buscar} />
+                   <Avatar2 buscarPato={buscarPato}/>
                    <Avatar3 />
                 </div>
             </div>
