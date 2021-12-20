@@ -11,8 +11,8 @@ import Avatar3 from "../Components/Materials/Avatar3";
 
 
 
-const PageAvatar = (props) => {
-    const { buscar, buscarPato } = props
+const PageAvatar = () => {
+   
     
     return(
         <Fragment>
@@ -27,11 +27,11 @@ const PageAvatar = (props) => {
                 <BottonMision />
 
                 <Avatars />
-                <div className="container-avatar">
+                {/* <div className="container-avatar">
                    <Avatar buscar={buscar} />
                    <Avatar2 buscarPato={buscarPato}/>
-                   <Avatar3 />
-                </div>
+                   <Avatar3 buscarNicov={buscarNicov} />
+                </div> */}
             </div>
         </Fragment>
     )

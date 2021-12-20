@@ -39,10 +39,11 @@ const useStyles = makeStyles({
 
 export default function CustomizedTables(props) {
 
-  const { franco, pato } = props
+  const { franco, pato, nicov } = props
 
   var nombre, nickname;
   var nombre2, nickname2;
+  var nombre3, nickname3;
 
   for (let i=0;i<franco.length;i++) {
     nombre=franco[i].nombre
@@ -53,11 +54,16 @@ export default function CustomizedTables(props) {
     nombre2=pato[i].nombre
     nickname2=pato[i].nickname
   }
+
+  for (let i=0;i<nicov.length;i++) {
+    nombre3=nicov[i].nombre
+    nickname3=nicov[i].nickname
+  }
  
     const rows = [
       createData(nombre, nickname),
       createData(nombre2, nickname2),
-      createData('Nicolas', 'Nico'),
+      createData(nombre3, nickname3),
     //   createData('Cupcake', 305, 3.7, 67, 4.3),
     //   createData('Gingerbread', 356, 16.0, 49, 3.9),
     ];

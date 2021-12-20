@@ -27,6 +27,13 @@ const Ruts = () => {
         setPato(user2)
         console.log(pato)
     }
+
+    const  [nicov, setNicov] = useState([])
+    const  UserNicov = (user3) =>{
+        setNicov(user3)
+        console.log(nicov)
+    }
+
     return(
         <Fragment>
             <Router>
@@ -36,8 +43,8 @@ const Ruts = () => {
                     <Route path="/reglamentos" element={<PageReglas />} />
                     <Route path="/misiones" element={<PageMisiones />} />
                     <Route path="/eventos" element={<PageEventos />} />
-                    <Route path="/carnita-games" element={<PageCarnita user={franco} user2={pato} />} />
-                    <Route path="/avatar" element={<PageAvatar buscar={UserFranco} buscarPato={UserPato} />} />
+                    <Route path="/carnita-games" element={<PageCarnita user={franco} user2={pato} user3={nicov} buscar={UserFranco} buscarPato={UserPato} buscarNicov={UserNicov}/>} />
+                    <Route path="/avatar" element={<PageAvatar  />} />
                 </Routes>
             </Router>
         </Fragment>
